@@ -19,42 +19,31 @@ Installation:
 -
 1.Clone this repository:
 
-git clone 
-cd 
-Create and activate a virtual environment (optional but recommended):
+git clone https://github.com/yasminsheikh3125/Health-Risk-Analyzer.git
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install the required packages:
+2. Create and activate a virtual environment (optional but recommended):
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
+-python -m venv venv
+-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. Install the required packages:
+
+-pip install -r requirements.txt
+
 Usage
-To run the app, execute:
-
-bash
-Copy
-Edit
+-
+-To run the app, execute:
 streamlit run app.py
-Replace app.py with the filename of your script if different.
 
-Select Check My Health Risk to enter your details and get a risk prediction.
+-Select Check My Health Risk to enter your details and get a risk prediction.
+-Select View Health Data & Stats to see all saved entries and a bar chart of risk levels.
 
-Select View Health Data & Stats to see all saved entries and a bar chart of risk levels.
-
-Technologies Used
-Python 3.x
-
-Streamlit (for interactive UI)
-
-Pandas (for data handling)
-
-CSV module (for simple data persistence)
+Technologies Used:
+-
+-Python 3.x
+-Streamlit (for interactive UI)
+-Pandas (for data handling)
+-CSV module (for simple data persistence)
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
